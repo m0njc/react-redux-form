@@ -1,0 +1,108 @@
+body
+{
+	background: #f7f7f7;
+}
+
+@media only screen and (max-width: 960px) {
+    .table-row
+	{
+		margin: 10px ;
+	}
+	.row
+	{margin: 0px;}
+	.product-item
+	{
+		border: 2px #f0f0f0 solid;
+		padding: 5px;
+		background-color: white;
+		height: 360px;
+		position: relative;
+		z-index: 90;
+		margin-bottom: 20px;
+	}
+	.product-list
+	{
+
+		border-top: 2px #efefef solid;
+		padding-top: 10px;
+	}
+	.product-title
+	{
+		padding-top:10px; 
+		font-size: 14px;
+		font-weight: 500;
+		min-height: 30px;
+		padding-left: 10px;
+	}
+}
+@media only screen and (min-width: 960px) {
+	.table-row
+	{
+		margin: 50px 150px;
+	}
+
+	.product-item
+	{
+		border: 2px #f0f0f0 solid;
+		padding: 15px 10px;
+		background-color: white;
+		height: 360px;
+		position: relative;
+		z-index: 90;
+		margin-bottom: 20px;
+	}
+	.product-list
+	{
+		max-width: 100%;
+		border-top: 2px #efefef solid;
+		padding-top: 20px;
+	}
+	.product-title
+	{
+		font-size: 14px;
+		font-weight: 500;
+		min-height: 60px;
+		padding-left: 10px;
+	}
+
+}
+
+
+
+.button-group{position: inherit;bottom: 0px; padding: 5px;}
+.button-group > .btn{font-size: 10px;}
+.rate-box{max-width:100%;margin:10px;text-align: center;border-top:thin #efefef solid; border-bottom: thin #efefef solid;}
+.rate-box .col-6:first-child {border-right: thin #f0f0f0 solid;}
+.rate-box span:not(.rate-value) {font-size: 12px;color:#858b88;}
+.rate-box .col-6{padding: 5px;}
+.rate-value
+{font-size: 22px !important;font-weight: 600;}
+.company-logo
+{max-height: 35px; margin-right: 10px;}
+.product-cons {min-height: 85px;}
+.cons {padding-left: 11px;}
+.cons li{font-size: 11px;display: block;}
+.cons li:before
+{content:"\f00c";font-family: FontAwesome;}
+
+.product-info
+{
+	margin:5px 10px;
+	font-size: 11px;
+	border-top:thin #efefef solid; border-bottom: thin #efefef solid;
+}
+
+.product-info .row
+{	padding: 10px 0px;font-weight: 600;}
+.product-info .row label
+{margin-bottom: -10px;}
+
+.product-info .row .info-link
+{padding: 0px 5px;}
+
+.product-info .row .col-6 {
+    vertical-align: middle;
+    position: relative;
+}
+.button-group .btn
+{margin: -3px 0px 0px -10px;}
